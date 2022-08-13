@@ -75,14 +75,12 @@ the validation loss and accuracy.
 ## Clearing old variables:
 
 ![A picture containing text Description automatically
-generated](media/image1.png){width="2.5104166666666665in"
-height="0.6145833333333334in"}
+generated](media/image1.png)
 
 ## Importing the Training Data:
 
 ![Text Description automatically
-generated](media/image2.png){width="4.75in"
-height="1.0416666666666667in"}
+generated](media/image2.png)
 
 In this code firstly variables in the training data set are extracted
 from the training dataset file which is used to extract the dataset in
@@ -92,20 +90,18 @@ the prediction are selected in the train1 variable.
 ## Plotting the Dataset:
 
 ![Text Description automatically
-generated](media/image3.png){width="2.7395833333333335in"
-height="0.6979166666666666in"}
+generated](media/image3.png)
 
 It uses the custom function to plot the graph which is as:
 
 ![Text Description automatically
-generated](media/image4.png){width="5.09375in"
-height="1.3958333333333333in"}
+generated](media/image4.png)
 
 This function get the table as input and with help of MATLAB built-in
 function stackedplot to plot the data which give the output as
 
 ![Graphical user interface Description automatically
-generated](media/image5.png){width="6.5in" height="4.46875in"}
+generated](media/image5.png)
 
 In this Graph column of the table is drawn with respect to each point so
 that they can be compared easily.
@@ -113,81 +109,70 @@ that they can be compared easily.
 ## Training and Testing:
 
 ![Text Description automatically
-generated](media/image6.png){width="3.3854166666666665in"
-height="0.6041666666666666in"}
+generated](media/image6.png)
 
 In this function firstly dataset is separated into training, Training
 validation, and testing parts
 
 ![Text, letter Description automatically
-generated](media/image7.png){width="6.5in"
-height="2.3319444444444444in"}
+generated](media/image7.png)
 
 Which are as
 
 ![Graphical user interface, text, application, email Description
-automatically generated](media/image8.png){width="2.53125in"
-height="3.6145833333333335in"}
+automatically generated](media/image8.png)
 
 Then the neural network is created which is given as
 
 ![Text Description automatically
-generated](media/image9.png){width="5.510416666666667in"
-height="3.8645833333333335in"}
+generated](media/image9.png)
 
 Then using training is done using following code: ![A picture containing
 text Description automatically
-generated](media/image10.png){width="4.302083333333333in"
-height="0.375in"}
+generated](media/image10.png)
 
 ### Training process output:
 
 ![Chart, diagram, table Description automatically generated with medium
-confidence](media/image11.png){width="6.5in"
-height="3.111111111111111in"}
+confidence](media/image11.png)
 
 Testing is done by using the trained model to get the model accuracy.
 
 ![Graphical user interface, text Description automatically
-generated](media/image12.png){width="5.84375in"
-height="1.3958333333333333in"}
+generated](media/image12.png)
 
 Which gives the accuracy as 93.94%.
 
 ### With the confusion matrix as
 
 ![Chart Description automatically
-generated](media/image13.png){width="3.8124343832021in"
-height="2.923124453193351in"}
+generated](media/image13.png)
 
 ## Predicting the dates for next month:
 
 Next month's dates were predicted using the trained model as
 
 ![Text Description automatically
-generated](media/image14.png){width="5.052083333333333in"
-height="2.4166666666666665in"}
+generated](media/image14.png)
 
 Which were as:
 
 ![Graphical user interface, text, application Description automatically
-generated](media/image15.png){width="3.6354166666666665in"
-height="1.6770833333333333in"}
+generated](media/image15.png)
 
-Saving the calculated data:
+#Saving the calculated data:
 
 Then calculated data is saved using the following code
 
 ![Text Description automatically
-generated](media/image16.png){width="6.15625in" height="1.03125in"}
+generated](media/image16.png)
 
 # Calculating the daily activity data:
 
 Data from the sensor is loaded using the following code
 
 ![Text Description automatically
-generated](media/image17.png){width="3.09375in"
-height="0.9270833333333334in"}
+generated](media/image17.png)
 
 As dates are in string format then they are to be converted into
 DateTime stamp format so they can be used in the MatLab. Then we have
@@ -196,7 +181,7 @@ is separated from data and at the end table is made by joining Date and
 H column.
 
 ![Text Description automatically
-generated](media/image18.png){width="6.5in" height="1.2625in"}
+generated](media/image18.png)
 
 ## Separating the monthly data:
 
@@ -204,7 +189,7 @@ Monthly based data groups are separated using the following code
 findgroups is the Matlab builtin function which finds the group in the
 given data.
 
-![](media/image19.png){width="2.875in" height="0.3229166666666667in"}
+![](media/image19.png)
 
 ## Separating the daily data:
 
@@ -216,36 +201,30 @@ Splitapply is MATLAB built-in function used to separate data based on
 groups.
 
 ![Text, letter Description automatically
-generated](media/image20.png){width="3.0625in"
-height="2.1979166666666665in"}
+generated](media/image20.png)
 
 and then we have daymean function which is custom and is used to find
 the mean of daily data from 8:00 am to 11:00 pm.
 
 ![Text Description automatically
-generated](media/image21.png){width="2.1770833333333335in"
-height="0.7708333333333334in"}
+generated](media/image21.png)
 
 Then an average of each month's day is joint together using the
 following code
 
-![](media/image22.png){width="2.6354166666666665in"
-height="0.4479166666666667in"}
+![](media/image22.png)
 
 Then results are saved in file as
 
-![results](media/image23.png){width="4.333333333333333in"
-height="2.125in"}
+![results](media/image23.png)
 
 ## Showing the average data with other columns:
 
 Then this data is added to the dataset in the activity column and
 plotted as using code
 
-![average data](media/image24.png){width="3.6145833333333335in"
-height="1.5833333333333333in"}
+![average data](media/image24.png)
 
 ## Plot:
 
-![plot](media/image25.png){width="5.322439851268592in"
-height="3.9065332458442694in"}
+![plot](media/image25.png)
